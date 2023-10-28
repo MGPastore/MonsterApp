@@ -1,10 +1,10 @@
 "use client"
 import { setupIonicReact } from '@ionic/react';
 setupIonicReact();
-export default function About() {
-    return (
-      <div>
-        <h2>About Page</h2>
-      </div>
-    );
-  }
+export default function Home() {
+  return (
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+  )
+}
